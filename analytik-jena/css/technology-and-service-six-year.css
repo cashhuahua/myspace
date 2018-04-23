@@ -1,0 +1,55 @@
+/*轮播图稍微改变一下样式start*/
+.slider-container{
+    width: 100%;
+}
+.slider-container>div:first-child{
+    width: 100%;
+}
+.slider-container>div:first-child img{
+    width: 100%;
+}
+/*轮播图稍微改变一下样式end*/
+
+
+.service-content{
+    width: 950px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.service-content .breadcrumb{
+    background-color: transparent;
+    width: 950px;
+    text-align: right;
+    margin: 30px auto;
+}
+.service-content>div:nth-child(2){
+    width: 100%;
+    margin-bottom: 50px;
+}
+.service-content>div:nth-child(2) img{
+    width: 100%;
+
+}
+ .service-bottom{
+    width: 950px;
+}
+ .service-bottom>div:first-child{
+     margin-right: 50px;
+ }
+.service-bottom .service-bottom-left{
+    width: 450px;
+}
+.service-bottom .service-bottom-left>img{
+    width: 450px;
+    padding-bottom: 30px;
+}
+.service-bottom .service-bottom-left>div{  }
+.service-bottom .service-bottom-left>div h4{
+    margin-top: 7px;
+}
+.service-bottom .service-bottom-left>div>p{
+    margin-top :20px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: rgb(137, 137, 137);
+}

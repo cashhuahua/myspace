@@ -37,20 +37,7 @@ $(function () {
 
 
 
-    //    返回顶部，    当页面滚动了50的时候，出现这个层
-    $(window).scroll(function () {
-        if($(window).scrollTop()>100){
-            $(".totop").show();
-        }else{
-            $(".totop").hide();
-        }
-    })
-//        当点击的时候回到顶部
-    $(".totop").on("click",function () {
-        $("body,html").animate({
-            scrollTop:0
-        });
-    })
+
 
 
 })

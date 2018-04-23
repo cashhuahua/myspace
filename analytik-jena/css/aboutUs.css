@@ -1,0 +1,63 @@
+.slider-container>img{
+    width: 100%;
+    /*position: relative;*/
+}
+
+/*内容页start*/
+.main{
+    width: 100%;
+}
+.main .main-top{
+    width: 850px;
+    margin: 0 auto;
+}
+.main .main-top>p{
+    margin-top: 30px;
+    color: #666;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.7px;
+}
+.main .main-top>p:nth-child(1){
+    text-align: right;
+    font-size: 12px;
+
+}
+.main .main-bottom{
+    width: 850px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.main .main-bottom>div{
+
+}
+.main .main-bottom>div>div{
+    float: left;
+    margin-bottom: 10px;
+    position: relative;
+}
+.main .main-bottom>div>div:first-child{
+    margin-right: 10px;
+}
+.main .main-bottom>div>div>img{
+    width: 400px;
+    height: 280px;
+
+}
+.main .main-bottom>div>div>span{
+    position: absolute;
+    z-index: 3;
+    width: 400px;
+    height: 60px;
+    background-color: rgba(26,53,94,0.8);
+    bottom: 0;
+}
+.main .main-bottom>div>div>span>p{
+    text-align: center;
+    margin-top: 20px;
+    color: #cccccc;
+}
+
+
+/*内容页end*/

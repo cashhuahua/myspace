@@ -1,0 +1,128 @@
+/*轮播图稍微改变一下样式start*/
+.slider-container{
+    width: 100%;
+}
+.slider-container>div:first-child{
+    width: 100%;
+}
+.slider-container>div:first-child img{
+    width: 100%;
+}
+/*轮播图稍微改变一下样式end*/
+
+.intelligence-content{
+    width: 950px;
+    margin: 0 auto 80px;
+}
+.intelligence-content .breadcrumb{
+    text-align: right;
+    background-color: transparent;
+}
+.intelligence-content ul{}
+.intelligence-content ul li{
+    float: left;
+    width: 135px;
+    border-left: 1px dashed #ccc;
+}
+.intelligence-content ul li:last-child{
+    border-right: 1px dashed #ccc;
+}
+.intelligence-content ul li a{
+    display: block;
+    padding: 10px 0;
+
+}
+.intelligence-content ul li a img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-left: 42px;
+    margin-bottom: 15px;
+    /*vertical-align: middle;*/
+}
+.intelligence-content ul li a p{
+    text-align: center;
+    color: #666;
+}
+.intelligence-content h2{
+    text-align: center;
+    margin-top: 50px;
+}
+.intelligence-content p{
+    margin-top: 30px;
+}
+.intelligence-content video{
+    width: 950px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.intelligence-content .grids{
+    width: 950px;
+}
+.intelligence-content .grids img{
+    width: 950px;
+}
+
+.intelligence-imgs{
+    width: 100%;
+}
+.intelligence-imgs div{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.intelligence-imgs div img{
+    width: 100%;
+}
+.intelligence-imgs div:nth-child(2){
+    margin-left: 150px;
+    width: 252px;
+}
+.intelligence-imgs div:nth-child(2) img{
+    width: 252px;
+}
+.intelligence-imgs .six-year{
+    position: relative;
+}
+.intelligence-imgs .six-year>div{
+    position: absolute;
+    top:200px;
+    left: 50px;
+    width: 500px;
+}
+.intelligence-imgs .moreInfo{
+    display: block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background-color: #2e6da4;
+    margin-top: 50px;
+}
+.intelligence-imgs  .yingyong{
+    position: relative;
+}
+.intelligence-imgs  .yingyong>div{
+    position: absolute;
+    top:200px;
+    left: 690px;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+}
+.intelligence-imgs  .yingyong>div h4{
+    color: #333333;
+    font-size: 22px;
+    padding-top: 40px;
+}
+.intelligence-imgs  .yingyong>div p{
+    padding-top:30px;
+}
+.intelligence-imgs  .yingyong>div a{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.intelligence-imgs>div:last-child>div{
+    left: 20px;
+}

@@ -1,0 +1,121 @@
+
+/*轮播图稍微改变一下样式start*/
+.slider-container .carousel-indicators{
+    bottom: 10px;
+    margin-left: 0;
+    width: 20%;
+}
+.slider-container .carousel-indicators li{
+    border-radius: 0;
+}
+/*轮播图稍微改变一下样式end*/
+
+
+.renovation-content{
+    text-align: left;
+    width: 980px;
+    margin: 30px auto;
+}
+.renovation-content>div:first-child{
+    width: 800px;
+    margin-bottom: 10px;
+    height: 200px;
+    position: relative;
+}
+.renovation-content>div:first-child h3{
+    color: #1a355e;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.renovation-content>div:first-child h5{
+    color: #1a355e;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+.renovation-content>div:first-child p{
+    color: rgb(137, 137, 137);
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.renovation-content>div:last-child{
+    height: 360px;
+
+}
+.renovation-content>div:last-child>div{
+    width: 280px;
+    height: 170px;
+
+}
+.renovation-content>div:last-child input{
+    width: 280px;
+    height: 170px;
+    background-color: rgba(26,53,64,.7);
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+.renovation-content>div:last-child>div:nth-child(1){
+    background: url(../images/list-jinzhi.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.renovation-content>div:last-child>div:nth-child(1):hover input{
+    opacity: 0;
+}
+.renovation-content>div:last-child>div:nth-child(2){
+    background: url(../images/list-oudian.jpg) no-repeat;
+    background-size: cover;
+    margin:0 70px;
+    margin-bottom: 10px;
+}
+.renovation-content>div:last-child>div:nth-child(2):hover input{
+    opacity: 0;
+}
+.renovation-content>div:last-child>div:nth-child(3){
+    background: url(../images/list-yazhi.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.renovation-content>div:last-child>div:nth-child(3):hover input{
+    opacity: 0;
+}
+.renovation-content>div:last-child>div:nth-child(4){
+    background: url(../images/list-yilan.jpg) no-repeat;
+    background-size: cover;
+}
+.renovation-content>div:last-child>div:nth-child(4):hover input{
+    opacity: 0;
+}
+.renovation-content>div:last-child>div:nth-child(5){
+    background: url(../images/list-zhendian.jpg) no-repeat;
+    background-size: cover;
+    margin:0 70px;
+}
+.renovation-content>div:last-child>div:nth-child(5):hover input{
+    opacity: 0;
+}
+.renovation-content>div:last-child>div:nth-child(6){
+    background: url(../images/list-zhenshang.jpg) no-repeat;
+    background-size: cover;
+}
+.renovation-content>div:last-child>div:nth-child(6):hover input{
+    opacity: 0;
+}
+
+
+.renovation-content>div:first-child a{
+    position: absolute;
+    right: 10px;
+    top: 120px;
+    width: 100px;
+    height: 30px;
+    background-color: #2e6da4;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+}

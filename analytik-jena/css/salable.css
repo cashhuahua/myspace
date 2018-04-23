@@ -1,0 +1,76 @@
+body{
+    background: url(../images/bg-top-ten.jpg) repeat-y center 0;
+
+}
+/*导航的颜色改变一下*/
+.nav .nav-text>ul>li>a{
+    color: #000;
+}
+
+
+/*畅销产品start*/
+.salable-content{
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 150px;
+    position: relative;
+}
+        /*里面的同用样式*/
+.p{
+    position: absolute;
+}
+.common-style{
+    width: 420px;
+    padding-top: 50px;
+    margin-left: auto;
+}
+.common-style h1{
+    font-weight: 700;
+    font-size: 55px;
+    color: #002e64;
+}
+.common-style h4{
+    font-weight: 700;
+    font-size: 28px;
+    color: #002e64;
+    margin-top: 15px;
+}
+.common-style p{
+    color: rgb(137, 137, 137);
+    margin-top: 7px;
+}
+.common-style a{
+    text-decoration: underline;
+    display: block;
+    color: #002e64;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+
+.salable-content>div:nth-child(1){
+    width: 420px;
+    top:150px;
+    left: 0;
+}
+.salable-content>div:nth-child(1)>img{
+    width: 90%;
+}
+.salable-content>div:nth-child(2){
+    top:150px;
+    right: 0;
+}
+.salable-content>div:nth-child(3){
+    top:550px;
+    left: 0;
+}
+.salable-content>div:nth-child(4){
+    top:550px;
+    right: 0;
+}
+.salable-content>div:nth-child(4)>img{
+    width: 90%;
+}
+
+/*畅销产品end*/

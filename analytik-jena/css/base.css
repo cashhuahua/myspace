@@ -1,0 +1,419 @@
+/*css初始化start*/
+html,body{
+    width: 100%;
+    /*overflow-x:hidden*/
+    font-family: "Microsoft YaHei";
+
+}
+html,body,div,p,ul,li,span,a,img,h1,h2,h3,h4,h5,h6,input{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img,input{
+    border: none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+/*css初始化end*/
+
+/*webfont封装start*/
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont.woff') format('woff'),
+    url('../fonts/iconfont.ttf') format('truetype'),
+    url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/*webfont封装end*/
+
+/*导航start*/
+.nav{
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+    position: absolute;
+    padding-left: 10px;
+    z-index: 999;
+    top:0;
+    left:0;
+}
+.nav .nav-logo{
+    width: 150px;
+    margin-top: 30px;
+}
+
+
+/*中间导航的文字开始*/
+.nav .nav-text{
+    position: absolute;
+    top:30px;
+    left: 200px;
+    /*right:0;*/
+}
+.nav .nav-text ul li{
+    margin-right:30px ;
+    float: left;
+}
+
+.nav .nav-text>ul>li>a{
+    font-family: "Microsoft YaHei";
+    color:#fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+.nav .nav-text>ul>li:last-child>a{
+    font-size: 16px;
+}
+.nav .nav-text ul li a:hover{
+    color: #1a355e;
+}
+
+.nav .nav-text ul li.tech{
+    position: relative;
+    padding-bottom: 30px;
+    /*overflow: hidden;*/
+}
+.nav .nav-text ul li.tech .techDropDown{
+    display: none;
+    position: absolute;
+    top:50px;
+    left:-250%;
+    z-index: 99;
+    height: 50px;
+    background-color: transparent;
+    width: 1100%;
+    /*right:0;*/
+
+}
+
+.nav .nav-text ul li.tech .techDropDown>div{
+    float: left;
+    margin: 0 20px;
+}
+.nav .nav-text ul li.tech .techDropDown>div a{
+    display: block;
+    margin-top: 10px;
+    height: 28px;
+    color: #666;
+    font-size: 14px;
+}
+.nav .nav-text ul li.tech .techDropDown>div a:hover{
+    color: #1a355e;
+}
+.nav .nav-text ul li.tech .techDropDown>div a .techImg{
+    display: inline-block;
+    background: url(../images/bg-nav-tas.png) no-repeat;
+    width: 28px;
+    height: 28px;
+    /*padding-top: 10px;*/
+    background-position: 0 -28px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.nav .nav-text ul li.tech .techDropDown>div a .two{
+    background-position: -28px -28px;
+}
+.nav .nav-text ul li.tech .techDropDown>div a:hover .two{
+
+}
+.nav .nav-text ul li.tech .techDropDown>div a .three{
+    background-position: -56px -28px;
+}
+.nav .nav-text ul li.tech .techDropDown>div a .four{
+    background-position: -84px -28px;
+}
+.nav .nav-text ul li.tech .techDropDown>div .techText{
+    display: inline-block;
+    vertical-align: middle;
+}
+.tech-dropdown-bg{
+    position: absolute;
+    height: 50px;
+    background-color: rgba(242,242,242,0.9);
+    width: 100%;
+    top:80px;
+    left:0;
+    display: none;
+    z-index: 3;
+    /*overflow: hidden;*/
+
+}
+
+.nav .nav-text li.productList{
+    position: relative;
+    padding-bottom: 30px;
+
+}
+.nav .nav-text .productDrodown{
+    position: absolute;
+    top:50px;
+    left:-370%;
+    z-index: 99;
+    width: 1600%;
+    background-color: transparent;
+    padding-bottom: 20px;
+    height: 280px;
+    display: none;
+
+}
+.nav .nav-text .productDrodown>div{
+    float: left;
+    margin: 0 8px;
+}
+.nav .nav-text .productDrodown>div img{
+    width: 85%;
+    margin-top: 10px;
+}
+.nav .nav-text .productDrodown>div p{
+    color: #1a355e;
+    margin-top: 10px;
+    border-right: 1px #999 dashed;
+    width: 85%;
+    font-size: 14px;
+}
+.nav .nav-text .productDrodown>div a{
+    display: block;
+    color: #666;
+    margin-top: 8px;
+    font-size: 12px;
+}
+.nav .nav-text .productDrodown>div a:nth-child(3){
+    margin-top: 15px;
+}
+.product-dropdown-bg{
+    position: absolute;
+    background-color: rgba(242,242,242,0.9);
+    width: 100%;
+    height: 280px;
+    display: none;
+    z-index: 3;
+    top:80px;
+    left: 0;
+    /*overflow: hidden;*/
+}
+.nav .nav-hide{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top:0;
+    right:0;
+
+}
+.nav .nav-hide>.span1{
+    /*display: block;*/
+    /*margin-right:30px ;*/
+    position: relative;
+}
+.nav .nav-hide>.span1>img{
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+.nav .nav-hide>.span1 .long-nav{
+    position: absolute;
+    width: 80px;
+    height: 430px;
+    background-color: rgba(242,242,242,0.8) ;
+    top:80px;
+    right: 0px;
+    z-index: 99;
+    display: none;
+}
+.nav .nav-hide>.span1 .long-nav>div>a{
+    display: block;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    padding: 10px 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.nav .nav-hide>.span1 .long-nav>div>a img{
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.nav .nav-hide>.span1 .long-nav>div>a p{
+    font-size: 12px;
+    color: #000;
+    border-bottom: 1px dashed #999;
+    padding: 10px 0;
+}
+.nav .nav-hide>.span1 .long-nav>div:last-child>a p{
+    border: none;
+}
+.nav .nav-hide>.span1 .long-nav>div.focusWebChat{
+    position: relative;
+}
+.nav .nav-hide>.span1 .long-nav>div.focusWebChat span{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    top:-8px;
+    right: 95px;
+    display: none;
+}
+.nav .nav-hide>.span1 .long-nav>div.focusWebChat:hover span{
+    display: block;
+}
+.nav .nav-hide>.span1 .long-nav>div.recentlyNews{
+    position: relative;
+}
+.nav .nav-hide>.span1 .long-nav>div.recentlyNews:hover .recentlyNews-content{
+    display: block;
+}
+.nav .nav-hide>.span1 .long-nav>div.recentlyNews .recentlyNews-content{
+    position: absolute;
+    background-color: transparent;
+    top:0;
+    right: 80px;
+    display: none;
+}
+.nav .nav-hide>.span1 .long-nav>div.recentlyNews .recentlyNews-content img{
+    display: block;
+    width: 200px;
+    margin-bottom: 2px;
+
+}
+/*导航end*/
+
+
+/*页脚start*/
+.footer{
+    width: 100%;
+    background-color: #f6f6f6;
+    font-size: 12px;
+    padding-top: 50px;
+}
+.footer>div{
+    width: 700px;
+    margin: 0 auto;
+}
+.footer a,.footer p,.footer h3{
+    color: #8c8c8c;
+}
+.footer .container-fluid{
+    padding: 0;
+    margin: 0;
+
+}
+.footer .container-fluid .row{
+    max-width: 980px;
+    margin: 0 auto;
+    padding-top:20px;
+}
+.footer .ulList{
+
+    /*float: left;*/
+}
+.footer .ulList ul{
+    list-style: none;
+    float: left;
+    margin-right: 47px;
+}
+.footer .ulList ul li{
+    padding: 2px 0;
+}
+.footer .ulList ul li:first-child{
+    font-size: 14px;
+}
+.footer .footerInfo{
+    /*float: left;*/
+    margin-left: 50px;
+}
+.footer .footerInfo .footer-logo,.footer .footerInfo .footer-chinalogo{
+    width: 192px;
+}
+.footer .footerInfo .footer-logo img,.footer .footerInfo .footer-chinalogo img{
+    width: 100%;
+}
+.footer .footernav{
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.footer .footernav ul{
+    list-style: none;
+    margin-right:40px;
+    /*float: left;*/
+}
+.footer .footernav ul li{
+    float: left;
+}
+.footer .footernav ul li a{
+    display: block;
+    padding: 0 3px;
+    border-right:1px solid #8c8c8c ;
+}
+.footer .footernav ul li:last-child a{
+    border-right:none;
+}
+.footer .footernav p{
+    /*float: right;*/
+    /*text-align: right;*/
+}
+@media (max-width: 992px) {
+    .footerInfo {
+        /*display: inline-block;*/
+        text-align: center;
+    }
+    .footerInfo div{
+        display: inline-block;
+    }
+    .footernav{
+        text-align: center;
+    }
+    .footernav div{
+        display: inline-block;
+
+    }
+    .footer-logo img{
+        vertical-align: center;
+    }
+}
+
+/*页脚end*/
+
+
+/*返回顶部start*/
+.totop{
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-color: #1a355e;
+    position:fixed;
+    bottom: 0;
+    right:0;
+}
+/*返回顶部end*/
+
